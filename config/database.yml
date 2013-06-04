@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: district
+  pool: 5
+  username: district
+  password: 
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: district
+  pool: 5
+  username: district
+  password: 
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: district
+  pool: 5
+  username: district
+  password: 
