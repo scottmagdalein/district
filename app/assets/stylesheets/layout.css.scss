@@ -1,9 +1,10 @@
+@import 'variables';
+
 html, body {	
 }
 
 .logo img {
 	width: 150px;
-	float: left;
 }
 
 nav {
@@ -12,6 +13,7 @@ nav {
 		li {
 			display: inline-block;
 			margin: 0 10px;
+			cursor: pointer;
 		}
 	}
 }
