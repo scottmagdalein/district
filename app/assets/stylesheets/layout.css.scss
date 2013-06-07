@@ -3,16 +3,18 @@
 html, body {	
 }
 
-.logo img {
-	width: 150px;
-}
-
 nav {
+	height: 110px;
+	img {
+		width: 100px;
+		margin: 15px;
+	}
 	ul {
-		text-align: center;
+		text-align: right;
+		padding-top: 43px;
 		li {
 			display: inline-block;
-			margin: 0 10px;
+			margin: 0 15px;
 			cursor: pointer;
 		}
 	}

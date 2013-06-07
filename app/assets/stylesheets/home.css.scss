@@ -1,5 +1,24 @@
 @import 'variables';
 
-#basics {
+.basics {
+	background-color: #ddd;
+	width: 100%;
+}
+.basics {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	h4 {
+		padding-top: 25px;
+	}
+	p {
+		width: 200px;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+}
 
+.circle {
+	border-radius: 62.5px;
+	box-shadow: 0 0 5px #ddd;
 }
