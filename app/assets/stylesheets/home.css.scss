@@ -22,3 +22,24 @@
 	border-radius: 62.5px;
 	box-shadow: 0 0 5px #ddd;
 }
+
+.subheader {
+	background: white url(http://placekitten.com/1200/400) top center no-repeat;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height: 400px;
+	margin: 0;
+	.subtitle {
+		margin-left: 45%;
+		margin-top: 60px;
+		background: rgba(250, 250, 250, 0.88);
+		padding: 10px;
+		position: absolute;
+		span {
+			color: black;
+			width: 500px;
+		}
+	}
+}

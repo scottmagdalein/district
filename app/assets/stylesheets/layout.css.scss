@@ -6,7 +6,7 @@ html, body {
 
 nav {
 	height: 110px;
-
+	font-family: $sans;
 	img {
 		width: 100px;
 		margin: 15px;
@@ -18,7 +18,7 @@ nav {
 			display: inline-block;
 			margin: 0 15px;
 			cursor: pointer;
-			font-family: 'Raleway', sans-serif;
+			font-family: $sans;
 			font-weight: 900;
 		}
 	}
