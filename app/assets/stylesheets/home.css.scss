@@ -32,14 +32,36 @@
 	height: 400px;
 	margin: 0;
 	.subtitle {
-		margin-left: 45%;
+		margin-left: 55%;
 		margin-top: 60px;
-		background: rgba(250, 250, 250, 0.88);
-		padding: 10px;
 		position: absolute;
-		span {
+		.subtext {
 			color: black;
-			width: 500px;
+			background: rgba(250, 250, 250, 0.88);
+			padding: 10px;
+			margin: 3px 0;
+			float: right;
 		}
+	}
+}
+
+#new {
+	padding: 100px;
+	img {
+		width: 100%;
+		margin: 20px auto;
+	}
+}
+
+#sundays {
+	background-color: #ddd;
+	padding: 100px;
+	img {
+		width: 450px;
+	}
+	.meeting {
+		font-weight: 900;
+		font-size: 110%;
+		margin-left: 40px;
 	}
 }
