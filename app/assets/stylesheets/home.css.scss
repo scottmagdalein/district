@@ -1,19 +1,18 @@
 @import 'variables';
 
 .basics {
-	background-color: #ddd;
+	background-color: rgba(249,249,249,1);
 	width: 100%;
 }
 .basics {
 	text-align: center;
 	padding: 40px 0;
-	h4 {
-		padding-top: 25px;
-	}
 	p {
+		font-family: $sans;
+		color: black;
 		width: 200px;
 		margin: 0 auto;
-		padding-bottom: 20px;
+		padding-top: 10px;
 	}
 }
 .clear {
@@ -41,6 +40,7 @@
 		text-align: center;
 		padding-top: 100px;
 		.subtext {
+			font-family: $sans;
 			color: black;
 			background: rgba(250, 250, 250, 0.88);
 			padding: 10px;
@@ -51,10 +51,30 @@
 
 #new {
 	padding: 100px;
-	img {
-		width: 100%;
-		margin: 20px auto;
-	}
+	background: white url(/assets/crowd-color.jpg) top center no-repeat;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  .title {
+  	font-family: $sans;
+  	color: black;
+  	font-size: 46px;
+  	font-weight: 900;
+		background: rgba(250, 250, 250, 0.88);
+		padding: 10px 10px;
+		margin: 3px 0;
+  }
+  .copy {
+  	font-family: $sans;
+  	color: black;
+  	font-size: 16px;
+  	font-weight: 400;
+		background: rgba(250, 250, 250, 0.88);
+		padding: 10px;
+		margin-top: -2px;
+		line-height: 30px;
+  }
 }
 
 #sundays {

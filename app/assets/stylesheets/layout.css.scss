@@ -4,6 +4,11 @@
 html, body {	
 }
 
+a, a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
 nav {
 	height: 110px;
 	font-family: $sans;
@@ -16,6 +21,7 @@ nav {
 		padding-top: 43px;
 		li {
 			display: inline-block;
+			font-size: 80%;
 			margin: 0 15px;
 			cursor: pointer;
 			font-family: $sans;
