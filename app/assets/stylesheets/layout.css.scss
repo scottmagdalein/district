@@ -9,13 +9,13 @@ a, a:hover {
 	text-decoration: underline;
 }
 
+.logo {
+	width: 100px;
+	margin: 20px;
+}
 nav {
 	height: 110px;
 	font-family: $sans;
-	img {
-		width: 100px;
-		margin: 15px;
-	}
 	ul {
 		text-align: right;
 		padding-top: 43px;
