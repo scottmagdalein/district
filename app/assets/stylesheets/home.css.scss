@@ -62,26 +62,19 @@
   }
 }
 
-
-.title {
-	font-family: $sans;
-	color: black;
-	font-size: 46px;
-	font-weight: 900;
-	padding: 10px 20px 10px;
-	margin: 3px 0;
-}
-.copy {
-	font-family: $sans;
-	color: black;
-	font-size: 16px;
-	font-weight: 400;
-	padding: 10px;
-	margin-top: -2px;
-	line-height: 30px;
+#serve {
+	padding: 100px;
+	background: white url(/assets/serve-big.jpg) top center no-repeat;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  .title, .copy, .centered-title, .centered-copy {
+  	background: rgba(250, 250, 250, 0.88);
+  }
 }
 
-#sundays {
+#sundays, #community {
 	background-color: white;
 	padding: 100px;
 	img {
@@ -96,4 +89,77 @@
 			color: white;
 		}
 	}
+
+	.dark {
+		background: rgba(0,0,0, 0.88);
+		.copy {
+			background: rgba(250,250,250, 0);
+			margin: 0;
+		}
+	}
+
+	.centered-title, .centered-copy {
+		color: white;
+		background: rgba(0,0,0, 0.88);
+	}
+	.centered-copy {
+		margin-top: 0px;
+		a { color: white; }
+	}
+	.centered-title {
+		padding-bottom: 20px;
+		margin-bottom: 0;
+	}
 }
+
+#community .copy {
+	margin-top: -2px;
+}
+
+.title {
+	font-family: $sans;
+	color: black;
+	font-size: 46px;
+	font-weight: 900;
+	padding: 10px 20px 10px;
+	margin: 3px 0;
+}
+.copy, .centered-copy {
+	font-family: $sans;
+	color: black;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: -2px;
+	line-height: 30px;
+}
+
+.centered-title {
+	text-align: center;
+	width: 350px;
+	display: block;
+	font-family: $sans;
+	color: black;
+	font-size: 46px;
+	font-weight: 900;
+	padding: 10px;
+	margin: 2px auto;
+}
+
+.small {
+	font-size: 30px;
+}
+
+.big {
+	width: 500px;
+}
+
+.special {
+	margin-top: -4px;
+}
+
+.centered-copy {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
