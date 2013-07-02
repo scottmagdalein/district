@@ -74,17 +74,41 @@
   }
 }
 
+#giving {
+	padding: 100px;
+	background: white url(/assets/giving.jpg) top center no-repeat;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  .title, .copy {
+  	background: rgba(250, 250, 250, 0.88);
+  }
+  .giving-first{
+  	margin-bottom: 13px;
+  }
+  .copy {
+  	margin-top: 12px;
+  }
+  .centered-copy {
+  	margin-top: 0;
+  }
+  .centered-title {
+  	margin-bottom: 0;
+  }
+}
+
 #sundays, #community {
 	background-color: white;
 	padding: 100px;
 	img {
 		width: 450px;
 	}
-
+	h2 { margin-top: 10px !important; }
 	.title, .copy {
 		color: white;
 		background: rgba(0,0,0, 0.88);
-		margin: 14px;
+		margin: 0;
 		a {
 			color: white;
 		}
