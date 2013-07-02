@@ -13,6 +13,8 @@ if defined?(Bundler)
   Bundler.require(*Rails.groups(:assets => %w(development test)))
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
+
+  config.assets.initialize_on_precompile = false
 end
 
 module District
@@ -22,8 +24,8 @@ module District
     # -- all .rb files in that directory are automatically loaded.
 
 
-    config.assets.initialize_on_precompile = false
     
+
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
 
