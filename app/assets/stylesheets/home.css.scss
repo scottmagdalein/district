@@ -19,7 +19,6 @@
 	clear: both;
 }
 
-
 .circle {
 	width: 125px;
 	border-radius: 62.5px;
@@ -28,18 +27,18 @@
 
 .subheader {
 	background: white url(/assets/top-bg.jpg) top center no-repeat;
-		-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	height: 400px;
+		// -webkit-background-size: cover;
+  //   -moz-background-size: cover;
+  //   -o-background-size: cover;
+  //   background-size: cover;
+	height: 550px;
 	margin: 0;
 	.first {
 
 	}
 	.subtitle {
 		text-align: center;
-		padding-top: 100px;
+		padding-top: 250px;
 		.subtext {
 			font-family: $sans;
 			color: black;
@@ -60,6 +59,7 @@
   .title, .copy {
   	background: rgba(250, 250, 250, 0.88);
   }
+  h2 {margin-bottom:2px;}
 }
 
 #serve {
@@ -71,6 +71,10 @@
     background-size: cover;
   .title, .copy, .centered-title, .centered-copy {
   	background: rgba(250, 250, 250, 0.88);
+  }
+  h2 { 
+  	margin-bottom: 2px;
+  	margin-top: 0;
   }
 }
 
@@ -88,7 +92,8 @@
   	margin-bottom: 13px;
   }
   .copy {
-  	margin-top: 12px;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
   }
   .centered-copy {
   	margin-top: 0;
@@ -96,6 +101,17 @@
   .centered-title {
   	margin-bottom: 0;
   }
+  h2 {
+  	margin: 0 !important;
+  }
+
+}
+
+.light {
+	background: rgba(250, 250, 250, 0.88);
+	.copy, .title {
+		background: rgba(250,250,250, 0) !important;
+	}
 }
 
 #sundays, #community {
@@ -104,7 +120,7 @@
 	img {
 		width: 450px;
 	}
-	h2 { margin-top: 10px !important; }
+	h2 { margin-top: 0px !important; }
 	.title, .copy {
 		color: white;
 		background: rgba(0,0,0, 0.88);
@@ -160,7 +176,6 @@
 
 .centered-title {
 	text-align: center;
-	width: 350px;
 	display: block;
 	font-family: $sans;
 	color: black;
@@ -172,18 +187,16 @@
 
 .small {
 	font-size: 30px;
+	margin-bottom: 4px !important;
 }
 
-.big {
-	width: 500px;
-}
 
 .special {
 	margin-top: -4px;
 }
 
 .centered-copy {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 	text-align: center;
 }
 

@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require stellar.js
+//= require jquery.smint.js
 //= require foundation
 //= require_tree .
 

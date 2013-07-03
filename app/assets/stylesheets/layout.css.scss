@@ -11,21 +11,26 @@ a, a:hover {
 
 .logo {
 	width: 100px;
-	margin: 20px;
+	margin-top: 9px;
 }
-nav {
-	height: 110px;
+
+.nav {
+	height: 80px;
 	font-family: $sans;
-	ul {
-		text-align: right;
-		padding-top: 43px;
-		li {
-			display: inline-block;
-			font-size: 80%;
-			margin: 0 15px;
-			cursor: pointer;
-			font-family: $sans;
-			font-weight: 900;
-		}
+	position: absolute;
+	background-color: rgba(250,250,250,.9);
+	width: 100%;
+	padding: 0 40px;
+	z-index: 1000;
+	a:not(:first-child) {
+		float: right;
+		padding-top: 30px;
+		text-align: justify;
+		font-size: 80%;
+		margin: 0 15px;
+		cursor: pointer;
+		font-family: $sans;
+		font-weight: 900;
+		text-decoration: none;
 	}
 }

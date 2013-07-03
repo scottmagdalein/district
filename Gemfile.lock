@@ -52,7 +52,7 @@ GEM
       multi_json (~> 1.0)
       rack
     erubis (2.7.0)
-    excon (0.25.0)
+    excon (0.25.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
     filters_spam (0.3)
