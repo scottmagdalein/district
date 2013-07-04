@@ -29,10 +29,10 @@
 
 .subheader {
 	background: white url(/assets/top-bg.jpg) top center no-repeat;
-		// -webkit-background-size: cover;
-  //   -moz-background-size: cover;
-  //   -o-background-size: cover;
-  //   background-size: cover;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	height: 550px;
 	margin: 0;
 	.first {
@@ -40,9 +40,10 @@
 	}
 	.subtitle {
 		text-align: center;
-		padding-top: 250px;
+		padding-top: 200px;
 		.subtext {
 			font-family: $sans;
+			font-size: 140%;
 			color: black;
 			background: rgba(250, 250, 250, 0.88);
 			padding: 10px;
