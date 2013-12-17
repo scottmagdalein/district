@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.2'
+
 gem 'rails', '~> 3.2.12'
 gem 'taps', '~> 0.3.24'
 gem 'unicorn', '~> 4.6.2'

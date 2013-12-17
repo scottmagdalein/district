@@ -14,8 +14,8 @@ District::Application.configure do
   # Compress JavaScripts and CSS
   config.assets.compress = true
 
-  config.assets.paths « Rails.root.join(‘app’, ‘assets’, ‘fonts’)
-  config.assets.precompile += %w( .svg .eot .woff .ttf )
+  # config.assets.paths « Rails.root.join(‘app’, ‘assets’, ‘fonts’)
+  # config.assets.precompile += %w( .svg .eot .woff .ttf )
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
