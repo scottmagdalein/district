@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -39,8 +40,8 @@ ActiveRecord::Schema.define(:version => 20130604114720) do
   create_table "refinery_news_item_translations", :force => true do |t|
     t.integer  "refinery_news_item_id"
     t.string   "locale"
-    t.text     "body"
     t.string   "title"
+    t.text     "body"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
     t.string   "source"
@@ -89,9 +90,9 @@ ActiveRecord::Schema.define(:version => 20130604114720) do
   create_table "refinery_page_translations", :force => true do |t|
     t.integer  "refinery_page_id"
     t.string   "locale"
+    t.string   "title"
     t.string   "custom_slug"
     t.string   "menu_title"
-    t.string   "title"
     t.string   "slug"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
